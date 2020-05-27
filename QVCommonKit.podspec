@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/QuVideoDeveloper/QVCommonKit'
+  s.homepage         = 'https://github.com/QuVideoDeveloper/QVCommonKit-iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sunshine' => 'cheng.xia@quvideo.com' }
-  s.source           = { :git => 'https://github.com/QuVideoDeveloper/QVCommonKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/QuVideoDeveloper/QVCommonKit-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'QVCommonKit/Classes/**/*'
+  #s.source_files = 'QVCommonKit/Classes/**/*'
   s.frameworks = 'Photos' , 'Accelerate' , 'AVFoundation' , 'CoreTelephony' , 'AdSupport'
   s.vendored_frameworks = 'QVCommonKit/FrameWork/*.framework'
   s.xcconfig = { "OTHER_LDFLAGS" => "-ObjC" }
