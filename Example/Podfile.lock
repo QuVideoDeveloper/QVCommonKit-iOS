@@ -1,15 +1,22 @@
 PODS:
-  - QVCommonKit (0.1.0)
+  - QVCommonKit (0.1.0):
+    - SSZipArchive
+  - SSZipArchive (2.2.2)
 
 DEPENDENCIES:
   - QVCommonKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SSZipArchive
 
 EXTERNAL SOURCES:
   QVCommonKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QVCommonKit: acc31661852c10120d0aa1db2ec73ea25f8bd302
+  QVCommonKit: a4a74a6fee30f4927bd017e067a2fb3b5656e1c0
+  SSZipArchive: fa16b8cc4cdeceb698e5e5d9f67e9558532fbf23
 
 PODFILE CHECKSUM: 2337921677b7443288aaf00fd7809614a38a4060
 
