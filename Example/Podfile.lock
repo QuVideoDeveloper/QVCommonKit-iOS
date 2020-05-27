@@ -1,0 +1,16 @@
+PODS:
+  - QVCommonKit (0.1.0)
+
+DEPENDENCIES:
+  - QVCommonKit (from `../`)
+
+EXTERNAL SOURCES:
+  QVCommonKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QVCommonKit: acc31661852c10120d0aa1db2ec73ea25f8bd302
+
+PODFILE CHECKSUM: 2337921677b7443288aaf00fd7809614a38a4060
+
+COCOAPODS: 1.9.2
