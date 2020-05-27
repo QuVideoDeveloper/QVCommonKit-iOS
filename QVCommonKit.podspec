@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sunshine' => 'cheng.xia@quvideo.com' }
-  s.source           = { :git => 'https://github.com/QuVideoDeveloper/QVCommonKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/QuVideoDeveloper/QVCommonKit-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
