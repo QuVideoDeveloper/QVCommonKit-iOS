@@ -31,7 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'QVCommonKit/Classes/**/*'
-  
+  s.vendored_frameworks = 'QVCommonKit/FrameWork/*.framework'
+  s.xcconfig = { "OTHER_LDFLAGS" => "-ObjC" }
   # s.resource_bundles = {
   #   'QVCommonKit' => ['QVCommonKit/Assets/*.png']
   # }
