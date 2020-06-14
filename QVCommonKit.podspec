@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QVCommonKit'
-  s.version          = '0.9.4'
+  s.version          = '0.9.5'
   s.summary          = 'A short description of QVCommonKit.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,6 @@ TODO: Add long description of the pod here.
   #s.source_files = 'QVCommonKit/Classes/**/*'
   s.frameworks = 'Photos' , 'Accelerate' , 'AVFoundation' , 'CoreTelephony' , 'AdSupport'
   s.vendored_frameworks = 'QVCommonKit/FrameWork/*.framework'
-  s.dependency 'SSZipArchive'
 
   # s.resource_bundles = {
   #   'QVCommonKit' => ['QVCommonKit/Assets/*.png']
