@@ -1,5 +1,9 @@
 PODS:
-  - QVCommonKit (0.9.5)
+  - QVCommonKit (0.9.7):
+    - QVCommonKit/Core (= 0.9.7)
+    - QVCommonKit/Zip (= 0.9.7)
+  - QVCommonKit/Core (0.9.7)
+  - QVCommonKit/Zip (0.9.7)
 
 DEPENDENCIES:
   - QVCommonKit (from `../`)
@@ -9,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  QVCommonKit: 44af9aeaa5588cb5095ecd6223192cf6346133fc
+  QVCommonKit: 8dc64499e4451e96fe35ee30f7ac81dd4572e60b
 
 PODFILE CHECKSUM: 2337921677b7443288aaf00fd7809614a38a4060
 
