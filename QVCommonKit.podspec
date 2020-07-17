@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QVCommonKit'
-  s.version          = '0.9.7'
+  s.version          = '0.9.8'
   s.summary          = 'A short description of QVCommonKit.'
 
 # This description is used to generate tags and improve search results.
@@ -39,9 +39,9 @@ TODO: Add long description of the pod here.
   s.subspec 'Core' do |c|
   c.vendored_frameworks = 'QVCommonKit/CoreFrameWork/*.framework'
   end
-  s.subspec 'Zip' do |sb|
-  sb.vendored_frameworks = 'QVCommonKit/ZipFrameWork/*.framework'
-  end
+  # s.subspec 'Zip' do |sb|
+  # sb.vendored_frameworks = 'QVCommonKit/ZipFrameWork/*.framework'
+  # end
 
 
   # s.resource_bundles = {
